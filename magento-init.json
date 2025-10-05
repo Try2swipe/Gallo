@@ -1,1 +1,733 @@
+{
+  "*": {
+    "magepalGtmDatalayer": {
+      "isCookieRestrictionModeEnabled": 0,
+      "currentWebsite": 12,
+      "cookieName": "user_allowed_save_cookie",
+      "dataLayer": "dataLayer",
+      "accountId": "GTM-KLLDW24",
+      "data": [
+        {
+          "ecommerce": {
+            "currencyCode": "GTQ"
+          },
+          "pageType": "customer_account_login",
+          "list": "other"
+        }
+      ],
+      "isGdprEnabled": 0,
+      "gdprOption": 0,
+      "addJsInHeader": 0,
+      "containerCode": ""
+    },
+    "Magento_PageCache/js/form-key-provider": {
+      "isPaginationCacheEnabled": 0
+    },
+    "Magento_PageBuilder/js/widget-initializer": {
+      "config": {
+        "[data-content-type=\"slider\"][data-appearance=\"default\"]": {
+          "Magento_PageBuilder/js/content-type/slider/appearance/default/widget": false
+        },
+        "[data-content-type=\"map\"]": {
+          "Magento_PageBuilder/js/content-type/map/appearance/default/widget": false
+        },
+        "[data-content-type=\"row\"]": {
+          "Magento_PageBuilder/js/content-type/row/appearance/default/widget": false
+        },
+        "[data-content-type=\"tabs\"]": {
+          "Magento_PageBuilder/js/content-type/tabs/appearance/default/widget": false
+        },
+        "[data-content-type=\"slide\"]": {
+          "Magento_PageBuilder/js/content-type/slide/appearance/default/widget": {
+            "buttonSelector": ".pagebuilder-slide-button",
+            "showOverlay": "hover",
+            "dataRole": "slide"
+          }
+        },
+        "[data-content-type=\"banner\"]": {
+          "Magento_PageBuilder/js/content-type/banner/appearance/default/widget": {
+            "buttonSelector": ".pagebuilder-banner-button",
+            "showOverlay": "hover",
+            "dataRole": "banner"
+          }
+        },
+        "[data-content-type=\"buttons\"]": {
+          "Magento_PageBuilder/js/content-type/buttons/appearance/inline/widget": false
+        },
+        "[data-content-type=\"products\"][data-appearance=\"carousel\"]": {
+          "Omnipro_PageBuilderCarousel/js/content-type/products/appearance/carousel/widget": false
+        },
+        "[data-content-type=\"faq\"]": {
+          "Omnipro_PageBuilderFaq/js/content-type/faq/appearance/default/widget": false
+        }
+      },
+      "breakpoints": {
+        "desktop": {
+          "label": "Desktop",
+          "stage": true,
+          "default": true,
+          "class": "desktop-switcher",
+          "icon": "Magento_PageBuilder::css/images/switcher/switcher-desktop.svg",
+          "conditions": {
+            "min-width": "1024px"
+          },
+          "options": {
+            "products": {
+              "default": {
+                "slidesToShow": "5"
+              }
+            }
+          }
+        },
+        "tablet": {
+          "conditions": {
+            "max-width": "1024px",
+            "min-width": "768px"
+          },
+          "options": {
+            "products": {
+              "default": {
+                "slidesToShow": "4"
+              },
+              "continuous": {
+                "slidesToShow": "3"
+              }
+            }
+          }
+        },
+        "mobile": {
+          "label": "Mobile",
+          "stage": true,
+          "class": "mobile-switcher",
+          "icon": "Magento_PageBuilder::css/images/switcher/switcher-mobile.svg",
+          "media": "only screen and (max-width: 768px)",
+          "conditions": {
+            "max-width": "768px",
+            "min-width": "640px"
+          },
+          "options": {
+            "products": {
+              "default": {
+                "slidesToShow": "3"
+              }
+            }
+          }
+        },
+        "mobile-small": {
+          "conditions": {
+            "max-width": "640px"
+          },
+          "options": {
+            "products": {
+              "default": {
+                "slidesToShow": "2"
+              },
+              "continuous": {
+                "slidesToShow": "1"
+              }
+            }
+          }
+        }
+      }
+    },
+    "cookieStatus": {},
+    "mage/cookies": {
+      "expires": null,
+      "path": "/",
+      "domain": ".www.elgallomasgallo.com.gt",
+      "secure": false,
+      "lifetime": "36000"
+    },
+    "Magento_Ui/js/block-loader": "https://www.elgallomasgallo.com.gt/static/version1757340799/frontend/Omnipro/monge_base_child_elgallo/es_CR/images/loader-1.gif",
+    "Magento_Ui/js/core/app": {
+      "components": {
+        "section": {
+          "component": "Omnipro_AdobeLaunch/js/pageload"
+        }
+      }
+    },
+    "algoliaAutocomplete": {},
+    "Magento_Customer/js/section-config": {
+      "sections": {
+        "stores/store/switch": [
+          "*"
+        ],
+        "stores/store/switchrequest": [
+          "*"
+        ],
+        "directory/currency/switch": [
+          "*"
+        ],
+        "*": [
+          "messages",
+          "apptrian_metapixelapi_matching_section"
+        ],
+        "customer/account/logout": [
+          "*",
+          "recently_viewed_product",
+          "recently_compared_product",
+          "persistent"
+        ],
+        "customer/account/loginpost": [
+          "*"
+        ],
+        "customer/account/createpost": [
+          "*"
+        ],
+        "customer/account/editpost": [
+          "*"
+        ],
+        "customer/ajax/login": [
+          "checkout-data",
+          "cart",
+          "captcha",
+          "journey-data"
+        ],
+        "catalog/product_compare/add": [
+          "compare-products"
+        ],
+        "catalog/product_compare/remove": [
+          "compare-products"
+        ],
+        "catalog/product_compare/clear": [
+          "compare-products"
+        ],
+        "sales/guest/reorder": [
+          "cart"
+        ],
+        "sales/order/reorder": [
+          "cart"
+        ],
+        "checkout/cart/add": [
+          "cart",
+          "directory-data",
+          "magepal-gtm-jsdatalayer",
+          "magepal-eegtm-jsdatalayer"
+        ],
+        "checkout/cart/delete": [
+          "cart",
+          "magepal-gtm-jsdatalayer",
+          "magepal-eegtm-jsdatalayer"
+        ],
+        "checkout/cart/updatepost": [
+          "cart",
+          "magepal-gtm-jsdatalayer",
+          "magepal-eegtm-jsdatalayer"
+        ],
+        "checkout/cart/updateitemoptions": [
+          "cart",
+          "magepal-gtm-jsdatalayer",
+          "magepal-eegtm-jsdatalayer"
+        ],
+        "checkout/cart/couponpost": [
+          "cart",
+          "magepal-gtm-jsdatalayer"
+        ],
+        "checkout/cart/estimatepost": [
+          "cart",
+          "magepal-gtm-jsdatalayer"
+        ],
+        "checkout/cart/estimateupdatepost": [
+          "cart",
+          "magepal-gtm-jsdatalayer"
+        ],
+        "checkout/onepage/saveorder": [
+          "cart",
+          "checkout-data",
+          "last-ordered-items",
+          "magepal-gtm-jsdatalayer"
+        ],
+        "checkout/sidebar/removeitem": [
+          "cart",
+          "magepal-gtm-jsdatalayer",
+          "magepal-eegtm-jsdatalayer"
+        ],
+        "checkout/sidebar/updateitemqty": [
+          "cart",
+          "magepal-gtm-jsdatalayer",
+          "magepal-eegtm-jsdatalayer"
+        ],
+        "rest/*/v1/carts/*/payment-information": [
+          "cart",
+          "last-ordered-items",
+          "captcha",
+          "instant-purchase",
+          "magepal-gtm-jsdatalayer"
+        ],
+        "rest/*/v1/guest-carts/*/payment-information": [
+          "cart",
+          "captcha",
+          "magepal-gtm-jsdatalayer"
+        ],
+        "rest/*/v1/guest-carts/*/selected-payment-method": [
+          "cart",
+          "checkout-data",
+          "magepal-gtm-jsdatalayer"
+        ],
+        "rest/*/v1/carts/*/selected-payment-method": [
+          "cart",
+          "checkout-data",
+          "instant-purchase",
+          "magepal-gtm-jsdatalayer"
+        ],
+        "wishlist/index/add": [
+          "wishlist"
+        ],
+        "wishlist/index/remove": [
+          "wishlist"
+        ],
+        "wishlist/index/updateitemoptions": [
+          "wishlist"
+        ],
+        "wishlist/index/update": [
+          "wishlist"
+        ],
+        "wishlist/index/cart": [
+          "wishlist",
+          "cart"
+        ],
+        "wishlist/index/fromcart": [
+          "wishlist",
+          "cart"
+        ],
+        "wishlist/index/allcart": [
+          "wishlist",
+          "cart"
+        ],
+        "wishlist/shared/allcart": [
+          "wishlist",
+          "cart"
+        ],
+        "wishlist/shared/cart": [
+          "cart"
+        ],
+        "giftregistry/index/cart": [
+          "cart"
+        ],
+        "giftregistry/view/addtocart": [
+          "cart"
+        ],
+        "customer_order/cart/updatefaileditemoptions": [
+          "cart"
+        ],
+        "checkout/cart/updatefaileditemoptions": [
+          "cart"
+        ],
+        "customer_order/cart/advancedadd": [
+          "cart"
+        ],
+        "checkout/cart/advancedadd": [
+          "cart"
+        ],
+        "checkout/cart/removeallfailed": [
+          "cart"
+        ],
+        "checkout/cart/removefailed": [
+          "cart"
+        ],
+        "customer_order/cart/addfaileditems": [
+          "cart"
+        ],
+        "checkout/cart/addfaileditems": [
+          "cart"
+        ],
+        "customer_order/sku/uploadfile": [
+          "cart"
+        ],
+        "customer/address/*": [
+          "instant-purchase",
+          "journey-data"
+        ],
+        "customer/account/*": [
+          "instant-purchase",
+          "journey-data"
+        ],
+        "vault/cards/deleteaction": [
+          "instant-purchase"
+        ],
+        "multishipping/checkout/overviewpost": [
+          "cart"
+        ],
+        "wishlist/index/copyitem": [
+          "wishlist"
+        ],
+        "wishlist/index/copyitems": [
+          "wishlist"
+        ],
+        "wishlist/index/deletewishlist": [
+          "wishlist",
+          "multiplewishlist"
+        ],
+        "wishlist/index/createwishlist": [
+          "multiplewishlist"
+        ],
+        "wishlist/index/editwishlist": [
+          "multiplewishlist"
+        ],
+        "wishlist/index/moveitem": [
+          "wishlist"
+        ],
+        "wishlist/index/moveitems": [
+          "wishlist"
+        ],
+        "wishlist/search/addtocart": [
+          "cart",
+          "wishlist"
+        ],
+        "paypal/express/placeorder": [
+          "cart",
+          "checkout-data"
+        ],
+        "paypal/payflowexpress/placeorder": [
+          "cart",
+          "checkout-data"
+        ],
+        "paypal/express/onauthorization": [
+          "cart",
+          "checkout-data"
+        ],
+        "persistent/index/unsetcookie": [
+          "persistent"
+        ],
+        "review/product/post": [
+          "review"
+        ],
+        "paymentservicespaypal/smartbuttons/placeorder": [
+          "cart",
+          "checkout-data"
+        ],
+        "paymentservicespaypal/smartbuttons/cancel": [
+          "cart",
+          "checkout-data"
+        ],
+        "amasty_cart/cart/add": [
+          "magepal-eegtm-jsdatalayer"
+        ],
+        "amasty_jettheme/ajax/addtocart": [
+          "magepal-eegtm-jsdatalayer"
+        ],
+        "ajaxsuite/cart/add": [
+          "magepal-eegtm-jsdatalayer"
+        ],
+        "journey/customer/assign": [
+          "journey-data"
+        ]
+      },
+      "clientSideSections": [
+        "checkout-data",
+        "cart-data"
+      ],
+      "baseUrls": [
+        "https://www.elgallomasgallo.com.gt/",
+        "http://www.elgallomasgallo.com.gt/"
+      ],
+      "sectionNames": [
+        "messages",
+        "customer",
+        "compare-products",
+        "last-ordered-items",
+        "cart",
+        "directory-data",
+        "captcha",
+        "wishlist",
+        "instant-purchase",
+        "loggedAsCustomer",
+        "multiplewishlist",
+        "persistent",
+        "review",
+        "payments",
+        "apptrian_metapixelapi_matching_section",
+        "partial-authentication-data",
+        "journey-data",
+        "recently_viewed_product",
+        "recently_compared_product",
+        "product_data_storage",
+        "paypal-billing-agreement",
+        "magepal-gtm-jsdatalayer",
+        "magepal-eegtm-jsdatalayer",
+        "adobe-launch-datalayer",
+        "adobe-delete-product",
+        "adobe-shipping-method",
+        "adobe-checkout",
+        "adobe-pageload"
+      ]
+    },
+    "Magento_Customer/js/customer-data": {
+      "sectionLoadUrl": "https://www.elgallomasgallo.com.gt/customer/section/load/",
+      "expirableSectionLifetime": 60,
+      "expirableSectionNames": [
+        "cart",
+        "persistent"
+      ],
+      "cookieLifeTime": "36000",
+      "cookieDomain": "www.elgallomasgallo.com.gt",
+      "updateSessionUrl": "https://www.elgallomasgallo.com.gt/customer/account/updateSession/",
+      "isLoggedIn": ""
+    },
+    "Magento_Customer/js/invalidation-processor": {
+      "invalidationRules": {
+        "website-rule": {
+          "Magento_Customer/js/invalidation-rules/website-rule": {
+            "scopeConfig": {
+              "websiteId": "12"
+            }
+          }
+        }
+      }
+    },
+    "Magento_Banner/js/model/banner": {
+      "sectionLoadUrl": "https://www.elgallomasgallo.com.gt/banner/ajax/load/",
+      "cacheTtl": 30000
+    },
+    "addToCartAjaxGa4DataLayer": {
+      "dataLayerName": "dataLayer",
+      "currency": "GTQ"
+    },
+    "addToCartAjaxDataLayer": {
+      "dataLayerName": "removeToCartDataLayer"
+    },
+    "showPwd": {}
+  },
+  "[data-block='minicart']": {
+    "Magento_Ui/js/core/app": {
+      "components": {
+        "minicart_content": {
+          "children": {
+            "subtotal.container": {
+              "children": {
+                "subtotal": {
+                  "children": {
+                    "subtotal.totals": {
+                      "config": {
+                        "display_cart_subtotal_incl_tax": 0,
+                        "display_cart_subtotal_excl_tax": 1,
+                        "template": "Magento_Tax/checkout/minicart/subtotal/totals"
+                      },
+                      "component": "Magento_Tax/js/view/checkout/minicart/subtotal/totals",
+                      "children": {
+                        "subtotal.totals.msrp": {
+                          "component": "Magento_Msrp/js/view/checkout/minicart/subtotal/totals",
+                          "config": {
+                            "displayArea": "minicart-subtotal-hidden",
+                            "template": "Magento_Msrp/checkout/minicart/subtotal/totals"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "component": "uiComponent",
+                  "config": {
+                    "template": "Magento_Checkout/minicart/subtotal"
+                  }
+                }
+              },
+              "component": "uiComponent",
+              "config": {
+                "displayArea": "subtotalContainer"
+              }
+            },
+            "item.renderer": {
+              "component": "Magento_Checkout/js/view/cart-item-renderer",
+              "config": {
+                "displayArea": "defaultRenderer",
+                "template": "Magento_Checkout/minicart/item/default"
+              },
+              "children": {
+                "item.image": {
+                  "component": "Magento_Catalog/js/view/image",
+                  "config": {
+                    "template": "Magento_Catalog/product/image",
+                    "displayArea": "itemImage"
+                  }
+                },
+                "checkout.cart.item.price.sidebar": {
+                  "component": "uiComponent",
+                  "config": {
+                    "template": "Magento_Checkout/minicart/item/price",
+                    "displayArea": "priceSidebar"
+                  }
+                }
+              }
+            },
+            "extra_info": {
+              "component": "uiComponent",
+              "config": {
+                "displayArea": "extraInfo"
+              }
+            },
+            "promotion": {
+              "component": "uiComponent",
+              "config": {
+                "displayArea": "promotion"
+              }
+            }
+          },
+          "config": {
+            "itemRenderer": {
+              "default": "defaultRenderer",
+              "simple": "defaultRenderer",
+              "virtual": "defaultRenderer"
+            },
+            "template": "Magento_Checkout/minicart/content"
+          },
+          "component": "Magento_Checkout/js/view/minicart"
+        }
+      },
+      "types": []
+    }
+  },
+  "#journey": {
+    "Magento_Ui/js/core/app": {
+      "components": {
+        "journey": {
+          "component": "Oms_CustomerJourney/js/journey",
+          "children": {
+            "location": {
+              "component": "Oms_CustomerJourney/js/location",
+              "deps": "journey",
+              "config": {
+                "displayArea": "header",
+                "loginUrl": "https://www.elgallomasgallo.com.gt/customer/account/login/referer/aHR0cHM6Ly93d3cuZWxnYWxsb21hc2dhbGxvLmNvbS5ndC9jdXN0b21lci9hY2NvdW50L2xvZ2luLw~~/",
+                "newAddressUrl": "https://www.elgallomasgallo.com.gt/customer/address/new/",
+                "addressListUrl": "https://www.elgallomasgallo.com.gt/customer/address/",
+                "defaultLocation": {
+                  "country_id": "GT",
+                  "state_custom": "1609",
+                  "state_name": "Guatemala",
+                  "city_custom": "3085",
+                  "city_name": "Guatemala",
+                  "zone_custom": "106509",
+                  "zone_name": "Zona 01"
+                },
+                "countryCode": "GT"
+              },
+              "children": {
+                "errors": {
+                  "component": "Oms_CustomerJourney/js/view/location/location-messages",
+                  "displayArea": "messages"
+                }
+              }
+            },
+            "store": {
+              "component": "Oms_CustomerJourney/js/store",
+              "deps": "journey",
+              "config": {
+                "displayArea": "header",
+                "defaultStore": {
+                  "id": "1757",
+                  "code": "001G",
+                  "name": "Selecciona tu Tienda GT, Selecciona tu Tienda"
+                },
+                "isActiveWarehouseFilter": 1
+              },
+              "children": {
+                "errors": {
+                  "component": "Oms_CustomerJourney/js/view/store/store-messages",
+                  "displayArea": "messages"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "#authenticationPopup": {
+    "Magento_Ui/js/core/app": {
+      "components": {
+        "authenticationPopup": {
+          "component": "Magento_Customer/js/view/authentication-popup",
+          "children": {
+            "messages": {
+              "component": "Magento_Ui/js/view/messages",
+              "displayArea": "messages"
+            },
+            "captcha": {
+              "component": "Magento_Captcha/js/view/checkout/loginCaptcha",
+              "displayArea": "additional-login-form-fields",
+              "formId": "user_login",
+              "configSource": "checkout"
+            }
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "pageCache": {
+      "url": "https://www.elgallomasgallo.com.gt/page_cache/block/render/",
+      "handles": [
+        "default",
+        "customer_account_login",
+        "algolia_search_handle",
+        "customer_logged_out"
+      ],
+      "originalRequest": {
+        "route": "customer",
+        "controller": "account",
+        "action": "login",
+        "uri": "/customer/account/login/"
+      },
+      "versionCookieName": "private_content_version"
+    },
+    "requireCookie": {
+      "noCookieUrl": "https://www.elgallomasgallo.com.gt/cookie/index/noCookies/",
+      "triggers": [
+        ".action.login"
+      ],
+      "isRedirectCmsPage": true
+    }
+  }
+}
 
+================================================================================
+FILE: /magento-init-runner.js
+================================================================================
+(async ()=>{
+  async function wait(cond, timeout=20000){
+    const start = Date.now();
+    while(!cond()){
+      if(Date.now() - start > timeout) throw new Error("timeout waiting for condition");
+      await new Promise(r=>setTimeout(r,100));
+    }
+  }
+  try{
+    await wait(()=> window.require && (window.jQuery || window.$));
+  }catch(e){
+    console.warn("RequireJS/jQuery not available in time:", e);
+  }
+
+  let cfg = {};
+  try{
+    cfg = await fetch('./magento-init.json', {cache:'no-store'}).then(r=>r.json());
+  }catch(e){
+    console.warn("Failed to load magento-init.json", e);
+  }
+
+  const entries = Object.entries(cfg||{});
+  entries.forEach(([selector, modules])=>{
+    Object.entries(modules||{}).forEach(([name, options])=>{
+      try{
+        window.require([name], function(mod){
+          const $ = window.jQuery || window.$;
+          const el = document.querySelector(selector);
+          // jQuery widget path
+          try{
+            if ($ && el && typeof $(el)[name] === 'function'){
+              $(el)[name](options);
+              return;
+            }
+          }catch(e){ console.warn('jQuery widget init failed', name, e); }
+          // fallback: module as function
+          try{
+            if (typeof mod === 'function'){
+              mod(el || document, options);
+            }
+          }catch(e){ console.warn('module call failed', name, e); }
+        });
+      }catch(e){
+        console.warn("require call failed", name, e);
+      }
+    });
+  });
+})();
