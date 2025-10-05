@@ -1,0 +1,11 @@
+    <div class="cross-wrapper">
+        <span class="clear-cross clear-refinement"></span></div>
+    <div class="current-refinement-wrapper">
+        {{#label}}
+        <span class="current-refinement-label">{{label}}{{^operator}}:{{/operator}}</span>
+        {{/label}}
+        {{#operator}}
+        {{{displayOperator}}}
+        {{/operator}}
+        {{#exclude}}-{{/exclude}}
+        <span class="current-refinement-name">{{name}}</span></div>
