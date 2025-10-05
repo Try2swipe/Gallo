@@ -1,0 +1,1 @@
+window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/www.elgallomasgallo.com.gt\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/www.elgallomasgallo.com.gt\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/www.elgallomasgallo.com.gt\/","customerLoginUrl":"https:\/\/www.elgallomasgallo.com.gt\/customer\/ajax\/login\/"}
